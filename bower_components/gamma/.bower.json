@@ -1,0 +1,14 @@
+{
+  "name": "gamma",
+  "homepage": "https://github.com/codrops/GammaGallery",
+  "_release": "775f1a7cca",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "775f1a7ccae89b31f6105ca98c48c398bb6b638f"
+  },
+  "_source": "git://github.com/codrops/GammaGallery.git",
+  "_target": "*",
+  "_originalSource": "gamma",
+  "_direct": true
+}

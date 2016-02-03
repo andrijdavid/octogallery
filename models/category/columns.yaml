@@ -1,0 +1,22 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+
+
+    name:
+        label: Catégorie
+        searchable: true
+
+    description:
+        label: Description
+        searchable: true
+
+    slug:
+        label: Lien
+        searchable: true
+
+    gallery_count:
+            label: Nombre de Galerie
+            sortable: false

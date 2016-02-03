@@ -1,0 +1,35 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+
+    title:
+        label: Titre
+        type: text
+
+    slug:
+        label: Lien
+        preset:
+             field: title
+             type: slug
+
+    description:
+        label: Description
+        type: text
+
+    categories:
+        label: Catégories
+        type: relation
+
+    images:
+        label: Images
+        type: fileupload
+
+    feature_image:
+        label: Image à la une
+        type: fileupload
+
+
+

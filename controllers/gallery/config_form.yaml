@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Gallery
+
+# Model Form Field configuration
+form: $/zingabory/gallery/models/gallery/fields.yaml
+
+# Model Class name
+modelClass: Zingabory\Gallery\Models\Gallery
+
+# Default redirect location
+defaultRedirect: zingabory/gallery/gallery
+
+# Create page
+create:
+    title: Create Gallery
+    redirect: zingabory/gallery/gallery/update/:id
+    redirectClose: zingabory/gallery/gallery
+
+# Update page
+update:
+    title: Edit Gallery
+    redirect: zingabory/gallery/gallery
+    redirectClose: zingabory/gallery/gallery
+
+# Preview page
+preview:
+    title: Preview Gallery

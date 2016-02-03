@@ -1,0 +1,24 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+
+    name:
+        label: Catégorie
+        type: text
+        span: left
+
+    slug:
+         label: Lien
+         type: text
+         span: right
+         preset:
+             field: name
+             type: slug
+
+    description:
+        label: Description
+        type: text
+

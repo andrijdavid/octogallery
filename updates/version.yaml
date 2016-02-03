@@ -1,0 +1,5 @@
+1.0.1: First version of gallery
+1.0.2:
+  - First beta
+  - create_galleries_table.php
+  - create_categories_table.php
